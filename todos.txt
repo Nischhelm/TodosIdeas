@@ -70,6 +70,7 @@ Parasited Pack
 	hippogryph should drop inventory on coth transformation (not just hippo)
 	node compass crafting recipe
 	remove bloody clock recipe + from jei?
+	recipe to reset adaptation on armor
 
 Oceanic Expanse
 

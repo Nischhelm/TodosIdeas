@@ -3,7 +3,7 @@ SRPMixins
 	evolock unlocking resets for some reason
 	remove points from overlast hud
 	scents push players
-	fixed node compass code
+	fixed node compass code - variable max distance, fix pointing direction
 	added node count condition to rules
 
 AntiqueAtlasAutoMarker
