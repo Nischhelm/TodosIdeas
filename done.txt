@@ -13,3 +13,7 @@ Parasited Pack
  
 	allow no-despawn assims/prim/ada to despawn after a while
 	fix against lots of assim adventurers fucking you (done-ish)
+
+Oceanic Expanse
+
+    trident saving issue https://github.com/SirSquidly/Oceanic-Expanse/pull/140

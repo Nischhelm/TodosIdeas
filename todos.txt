@@ -75,7 +75,6 @@ Parasited Pack
 
 Oceanic Expanse
 
-	trident saving issue
 	disable/go through OE encahnts
 
 Socketed
