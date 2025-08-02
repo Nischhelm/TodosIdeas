@@ -20,7 +20,6 @@ SRPMixins
 	slowly reduce adaptation on parasites
 	make min/max days be play time dependent, maybe also move cooldown there, its stupid. at least for player phases
 	distance between nodes different in LC
-	rule condition for #nodes?
 	how fast do you get higher lvls of viral/bleeding on touch mob
 	insane point increase when beckons/dispatchers fail to create idk
 	biome blacklists until phase x
