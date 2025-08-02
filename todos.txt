@@ -25,7 +25,6 @@ SRPMixins
 	biome blacklists until phase x
 	beckons dont save their spent summon points to nbt?
 	fear air dmg multi only on flight
-	node compass  check code
 	looting for para loot?
  
 RLCraft
