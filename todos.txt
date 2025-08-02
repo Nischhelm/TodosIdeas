@@ -68,13 +68,10 @@ Parasited Pack
 	remove coth somehow
 	remains spawning vapula
 	hippogryph should drop inventory on coth transformation (not just hippo)
-	node compass crafting recipe
-	remove bloody clock recipe + from jei?
-	recipe to reset adaptation on armor
 
 Oceanic Expanse
 
-	disable/go through OE encahnts
+	disable/go through OE enchants
 
 Socketed
  

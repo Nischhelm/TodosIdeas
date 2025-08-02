@@ -5,6 +5,7 @@ SRPMixins
 	scents push players
 	fixed node compass code - variable max distance, fix pointing direction
 	added node count condition to rules
+	recipe to reset adaptation on armor
 
 AntiqueAtlasAutoMarker
 
@@ -15,6 +16,7 @@ Parasited Pack
  
 	allow no-despawn assims/prim/ada to despawn after a while
 	fix against lots of assim adventurers fucking you (done-ish)
+	node compass crafting recipe
 
 Oceanic Expanse
 
