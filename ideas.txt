@@ -1,0 +1,41 @@
+RLCraft Luckified
+ 
+	Socketed stuff once Socketed releases
+
+SoManyEnchantments
+ 
+	can apply sentient greataxe
+	event to catch in SME to disallow upgrading for reskillable
+	all subscribers in one subscriber
+	enchantment swapping container
+	disenchanting makes "unrepairable"
+
+QualityTools Addon
+ 
+	JEI plugin
+	Some ideas by shiv idk
+
+Socketed
+
+	shared pain -> move remaining dmg of a dead mob to nearest mob
+	item type check instead of slot to distinguish between effects?
+	sound effects / clientside stuff / particles
+	custom particles mod compat
+
+incontrol wrapper mod
+
+potion control mod
+	blacklists for random shit
+	context for what can remove what
+
+inventory quick move control mod
+	needs auto mixin target feature im not sure how yet
+
+config hotswap mod
+
+actual reputation mod
+	golems+aegis attack
+	maybe also on block break/chest open and being seen
+	increase prices or refuse
+	
+end render dist override serverside
