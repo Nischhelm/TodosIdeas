@@ -10,6 +10,10 @@ SoManyEnchantments
 	enchantment swapping container
 	disenchanting makes "unrepairable"
 
+SRPMixins
+
+	item that reduces spawns around player
+
 QualityTools Addon
  
 	JEI plugin

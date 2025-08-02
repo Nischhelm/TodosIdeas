@@ -44,7 +44,7 @@ RLCraft
 	https://spark.lucko.me/OwK9q5H9IW sereneseason populate
 		is that an issue with otg?
 
-AntiqueAtlasAutoMarker
+AntiqueAtlasAutoMarkerlll
  
 	better networking
 	some rest stuff from 1.12 coalition
@@ -54,8 +54,7 @@ AntiqueAtlasAutoMarker
 	search bar
 	bigger selection area for marker type
 	draw circle of free tp cost
-	villages not showing up in dregora/RTG
-	check if the vanilla structure thing even works smh
+	village tiles not showing up in dregora/RTG
  
 Parasited Pack
  
@@ -71,18 +70,15 @@ Parasited Pack
 	no blood tears in ow?
 	paras targeting armor stands and stone statues
 	remove coth somehow
-	item that reduces spawns around player
 	remains spawning vapula
 	hippogryph should drop inventory on coth transformation (not just hippo)
 	node compass crafting recipe
 	remove bloody clock recipe + from jei?
 
-
 Oceanic Expanse
 
 	trident saving issue
 	disable/go through OE encahnts
-
 
 Socketed
  
