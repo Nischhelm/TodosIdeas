@@ -24,10 +24,10 @@ SRPMixins
 	how fast do you get higher lvls of viral/bleeding on touch mob
 	insane point increase when beckons/dispatchers fail to create idk
 	biome blacklists until phase x
-	sim bigspider min assims doesnt work?
 	beckons dont save their spent summon points to nbt?
 	fear air dmg multi only on flight
 	node compass  check code
+	looting for para loot?
  
 RLCraft
 
@@ -47,13 +47,11 @@ RLCraft
 AntiqueAtlasAutoMarker
  
 	better networking
-	some rest stuff from 1.12 coalition
 	waystone markers get added+removed again and agn
 	librarian button better
 	all "antiqueatlas:" gone from marker type naming
 	search bar
 	bigger selection area for marker type
-	draw circle of free tp cost
 	village tiles not showing up in dregora/RTG
  
 Parasited Pack

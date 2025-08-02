@@ -2,6 +2,10 @@ RLCraft Luckified
  
 	Socketed stuff once Socketed releases
 
+AntiqueAtlasAutoMarker
+
+	draw circle of free tp cost
+
 SoManyEnchantments
  
 	can apply sentient greataxe
