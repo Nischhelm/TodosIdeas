@@ -92,8 +92,7 @@ Socketed
 	max number of targets for aoe effects
 
 Mind Palaces
- 
-	tp back deletes items in open containers?
+
 	travel delay on world time, max stay on play time
 	mindpalace enter-block after relog
 
