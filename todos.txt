@@ -23,7 +23,6 @@ SRPMixins
 	how fast do you get higher lvls of viral/bleeding on touch mob
 	insane point increase when beckons/dispatchers fail to create idk
 	biome blacklists until phase x
-	beckons dont save their spent summon points to nbt?
 	fear air dmg multi only on flight
 	looting for para loot?
  
@@ -41,6 +40,9 @@ RLCraft
 	osmo 2^32-1 xp bug on gold shield break
 	https://spark.lucko.me/OwK9q5H9IW sereneseason populate
 		is that an issue with otg?
+    enchanted wolf armor in chests
+        add str vit and some other shit to wolf armor?
+    enchanted horse armor use?
 
 AntiqueAtlasAutoMarker
  
@@ -59,7 +61,6 @@ Parasited Pack
 		variants as increased chances
 		chance for infernal/champ increased?
 	no point reduction to below phase 3 in end
-	maybe phase explanations in warning msgs
 	add blocks with hardness so ppl can make bases
 	add simplenightmares?
 	loot reduction not on lure components
