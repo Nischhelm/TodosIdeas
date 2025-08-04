@@ -94,6 +94,15 @@ Mind Palaces
 	mindpalace enter-block after relog
 
 lycatweaks
+
 	go over the rest of the configs
+
+vcfix
+    autoskirting
+    blocks shouldnt break with glass particles
 	
 upload my mods to modrinth
+
+fermiumbooter
+
+    optional dependencies

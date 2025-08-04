@@ -7,6 +7,7 @@ SRPMixins
 	added node count condition to rules
 	recipe to reset adaptation on armor
 	fully overhauled summoning point system
+	early config reader for arrays being empty
 
 AntiqueAtlasAutoMarker
 
@@ -19,6 +20,7 @@ Parasited Pack
 	fix against lots of assim adventurers fucking you (done-ish)
 	node compass crafting recipe
 	short phase explanations in warning msgs
+	disabled dragons to turn into incomplete forms until phase 5 (where they turn into simdragone instead)
 
 Oceanic Expanse
 
