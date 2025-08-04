@@ -102,7 +102,3 @@ vcfix
     blocks shouldnt break with glass particles
 	
 upload my mods to modrinth
-
-fermiumbooter
-
-    optional dependencies

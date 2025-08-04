@@ -25,3 +25,7 @@ Parasited Pack
 Oceanic Expanse
 
     trident saving issue https://github.com/SirSquidly/Oceanic-Expanse/pull/140
+
+fermiumbooter
+
+    optional dependencies
