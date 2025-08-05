@@ -13,6 +13,7 @@ AntiqueAtlasAutoMarker
 
 	waystone atlas choice should always show waystone markers even if disabled
 	fixed vanilla structure marking not even working smh
+	vertically scrolling selection area for marker type
 
 Parasited Pack
  

@@ -51,8 +51,8 @@ AntiqueAtlasAutoMarker
 	librarian button better
 	all "antiqueatlas:" gone from marker type naming
 	search bar
-	bigger selection area for marker type
 	village tiles not showing up in dregora/RTG
+	    not by default, must be some kinda crash over time
  
 Parasited Pack
  
