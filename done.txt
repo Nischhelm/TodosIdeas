@@ -8,6 +8,10 @@ SRPMixins
 	recipe to reset adaptation on armor
 	fully overhauled summoning point system
 	early config reader for arrays being empty
+	fixed coth conversion not dropping inventory/notifying player
+	made sub mob counts (water/nexus/simmermen in end/gnat) playercount dependent
+    fixed phase warning msgs being for everyone / playing multiple times
+    para unlock msgs allow naming the unlocked mob
 
 AntiqueAtlasAutoMarker
 
@@ -22,6 +26,9 @@ Parasited Pack
 	node compass crafting recipe
 	short phase explanations in warning msgs
 	disabled dragons to turn into incomplete forms until phase 5 (where they turn into simdragone instead)
+	add some extra markers from discord (parasite, lycanites, 4tower, megatower, spawner, purple dragon)
+	fixed vapulas from gore (thanks eagle)
+    added dragonsteel BetterSurvival mod
 
 Oceanic Expanse
 
@@ -30,3 +37,7 @@ Oceanic Expanse
 fermiumbooter
 
     optional dependencies
+
+WornHorseShoes
+
+    initial release

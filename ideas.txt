@@ -47,3 +47,6 @@ actual reputation mod
 	increase prices or refuse
 	
 end render dist override serverside
+
+callable pets mod
+    with gui that shows all pets from all mods

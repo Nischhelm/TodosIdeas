@@ -12,11 +12,11 @@ SRPMixins
 	dispatcher stage 4 head sometimes missing
 	para biome gen performance check
 		getting better, change limits for block spread limits
+		also needs to spread less stupidly if limited
 	srp biome-features not all actually generating?
 	simdragone head regrows, also all tendrils
 	tozoon apparently being weird idk
 	smth about dispatcher spawns, go through the dispatcher code
-	stop coth spread going through blocks
 	slowly reduce adaptation on parasites
 	make min/max days be play time dependent, maybe also move cooldown there, its stupid. at least for player phases
 	distance between nodes different in LC
@@ -25,6 +25,7 @@ SRPMixins
 	biome blacklists until phase x
 	fear air dmg multi only on flight
 	looting for para loot?
+	overhaul scents
  
 RLCraft
 
@@ -38,11 +39,8 @@ RLCraft
 	fix hcc darkness
 	log off without dismount deletes mount
 	osmo 2^32-1 xp bug on gold shield break
-	https://spark.lucko.me/OwK9q5H9IW sereneseason populate
-		is that an issue with otg?
     enchanted wolf armor in chests
         add str vit and some other shit to wolf armor?
-    enchanted horse armor use?
 
 AntiqueAtlasAutoMarker
  
@@ -53,6 +51,8 @@ AntiqueAtlasAutoMarker
 	search bar
 	village tiles not showing up in dregora/RTG
 	    not by default, must be some kinda crash over time
+    last dismount position (wheres my dragon?)
+    last backpack place position -> backpack marker
  
 Parasited Pack
  
@@ -67,11 +67,8 @@ Parasited Pack
 	no blood tears in ow?
 	paras targeting armor stands and stone statues
 	remove coth somehow
-	remains spawning vapula
-	hippogryph should drop inventory on coth transformation (not just hippo)
-
-Oceanic Expanse
-
+	no bloodmoon until phase 4?
+	wtf is going on with enchantment CITs
 	disable/go through OE enchants
 
 Socketed
@@ -100,5 +97,8 @@ lycatweaks
 vcfix
     autoskirting
     blocks shouldnt break with glass particles
+
+fermiummixins
+    mixin to change tooltips to calc and display attribute modifiers correctly
 	
 upload my mods to modrinth
