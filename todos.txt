@@ -6,6 +6,7 @@ SoManyEnchantments
 	all subscribers in one subscriber
 	enchantment swapping container
 	disenchanting makes "unrepairable"
+    rune revival check if it works on armor
 
 SRPMixins
 
@@ -26,7 +27,12 @@ SRPMixins
 	fear air dmg multi only on flight
 	looting for para loot?
 	overhaul scents
- 
+     why did sergs dispatcher regrow all the time
+    fix point gain from in&out of bed
+    lures/carcasses need to be fixed
+        blacklist lures until phase they belong to
+	    lures can max decrease 1 phase
+
 RLCraft
 
 	arrow of splashing on empty cauldron
@@ -41,6 +47,8 @@ RLCraft
 	osmo 2^32-1 xp bug on gold shield break
     enchanted wolf armor in chests
         add str vit and some other shit to wolf armor?
+    rustic crushing tub deletes items?
+        update rustic compat code in rlmixins/tweaker idk
 
 AntiqueAtlasAutoMarker
  
@@ -53,6 +61,7 @@ AntiqueAtlasAutoMarker
 	    not by default, must be some kinda crash over time
     last dismount position (wheres my dragon?)
     last backpack place position -> backpack marker
+    village waystone auto mark as structure (instead of village marker)
  
 Parasited Pack
  
@@ -70,6 +79,8 @@ Parasited Pack
 	no bloodmoon until phase 4?
 	wtf is going on with enchantment CITs
 	disable/go through OE enchants
+    hydra coth immune
+    make LC portal phase lock phase 5
 
 Socketed
  

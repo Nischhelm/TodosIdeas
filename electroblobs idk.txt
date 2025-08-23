@@ -1,0 +1,47 @@
+loot tables are weird
+spells shouldnt be able to put into slots if they cant be applied
+should show how much mana you get from the crystal
+is cop a problem with misfiring of spells?
+special enchantments that shouldnt be accessible in survival sold by librarians
+summons can be blight and drop heart crystal shards
+make ebwiz potion effects unaffected by wine?
+POCKET WORKBENCH DELETES ITEMS
+
+
+https://www.curseforge.com/minecraft/mc-mods/arcane-essentials favouritedragon
+
+https://www.curseforge.com/minecraft/mc-mods/wizardrynextgeneration ipdnaeip (seems broken)
+
+https://www.curseforge.com/minecraft/mc-mods/lothryas-spell-additiions emberunholy
+
+zetta
+https://www.curseforge.com/minecraft/mc-mods/wizardry-tales
+	includes player mana
+https://www.curseforge.com/minecraft/mc-mods/wizardry-player-mana
+	player mana
+https://www.curseforge.com/minecraft/mc-mods/zettai-magic
+	last update 2022
+	botania + astral sorcery compat
+https://www.curseforge.com/minecraft/mc-mods/zettai-grimoires
+	last update 2021
+
+windanesz
+https://www.curseforge.com/minecraft/mc-mods/wizardryutils
+	api for other windanesz mods
+https://www.curseforge.com/minecraft/mc-mods/spell-bundle
+	some spells
+	waystones, quark, qualitytools compat
+	spell against treasure2 locks -> do a locks one
+	xat integration
+https://www.curseforge.com/minecraft/mc-mods/ancient-spellcraft
+	some spells
+	remote home, dimensionhopping, biomechanging
+https://www.curseforge.com/minecraft/mc-mods/wizardry-fates
+	classes
+https://www.curseforge.com/minecraft/mc-mods/wizardry-necromancers-delight
+
+meldexun
+https://www.curseforge.com/minecraft/mc-mods/extra-spells-electroblobs-wizardry
+	some spells
+	potioncore compat
+	extra alchemy compat
