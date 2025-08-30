@@ -62,6 +62,8 @@ AntiqueAtlasAutoMarker
     last dismount position (wheres my dragon?)
     last backpack place position -> backpack marker
     village waystone auto mark as structure (instead of village marker)
+    roguelikes (for kamei)
+    auto mark dregora structs
  
 Parasited Pack
  
@@ -108,6 +110,7 @@ lycatweaks
 vcfix
     autoskirting
     blocks shouldnt break with glass particles
+        this one is only solvable via resourcepack / resources folder, eagle might do it
 
 fermiummixins
     mixin to change tooltips to calc and display attribute modifiers correctly
