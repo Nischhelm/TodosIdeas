@@ -79,7 +79,6 @@ Parasited Pack
 	paras targeting armor stands and stone statues
 	remove coth somehow
 	no bloodmoon until phase 4?
-	wtf is going on with enchantment CITs
 	disable/go through OE enchants
     hydra coth immune
     make LC portal phase lock phase 5
