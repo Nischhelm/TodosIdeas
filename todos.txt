@@ -15,7 +15,6 @@ SRPMixins
 		getting better, change limits for block spread limits
 		also needs to spread less stupidly if limited
 	srp biome-features not all actually generating?
-	simdragone head regrows, also all tendrils
 	tozoon apparently being weird idk
 	smth about dispatcher spawns, go through the dispatcher code
 	slowly reduce adaptation on parasites

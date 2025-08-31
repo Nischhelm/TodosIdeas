@@ -12,6 +12,7 @@ SRPMixins
 	made sub mob counts (water/nexus/simmermen in end/gnat) playercount dependent
     fixed phase warning msgs being for everyone / playing multiple times
     para unlock msgs allow naming the unlocked mob
+	fixed tendril regain and simdragone head regrow on chunk reload
 
 AntiqueAtlasAutoMarker
 
