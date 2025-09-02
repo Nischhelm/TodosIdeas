@@ -30,6 +30,9 @@ Parasited Pack
 	add some extra markers from discord (parasite, lycanites, 4tower, megatower, spawner, purple dragon)
 	fixed vapulas from gore (thanks eagle)
     added dragonsteel BetterSurvival mod
+	paras targeting armor stands (not stone statues, those die at some point)
+    make LC portal phase lock phase 5
+    hydra coth immune
 
 Oceanic Expanse
 

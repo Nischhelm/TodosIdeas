@@ -74,12 +74,9 @@ Parasited Pack
 	add simplenightmares?
 	loot reduction not on lure components
 	no blood tears in ow?
-	paras targeting armor stands and stone statues
 	remove coth somehow
 	no bloodmoon until phase 4?
 	disable/go through OE enchants
-    hydra coth immune
-    make LC portal phase lock phase 5
 
 Socketed
  
