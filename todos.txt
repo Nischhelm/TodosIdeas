@@ -23,7 +23,6 @@ SRPMixins
 	insane point increase when beckons/dispatchers fail to create idk
 	biome blacklists until phase x
 	fear air dmg multi only on flight
-	looting for para loot?
 	overhaul scents
      why did sergs dispatcher regrow all the time
     fix point gain from in&out of bed
@@ -72,8 +71,6 @@ Parasited Pack
 	no point reduction to below phase 3 in end
 	add blocks with hardness so ppl can make bases
 	add simplenightmares?
-	loot reduction not on lure components
-	no blood tears in ow?
 	remove coth somehow
 	no bloodmoon until phase 4?
 	disable/go through OE enchants

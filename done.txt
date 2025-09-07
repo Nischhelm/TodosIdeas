@@ -13,6 +13,7 @@ SRPMixins
     fixed phase warning msgs being for everyone / playing multiple times
     para unlock msgs allow naming the unlocked mob
 	fixed tendril regain and simdragone head regrow on chunk reload
+	looting for para loot
 
 AntiqueAtlasAutoMarker
 
@@ -33,6 +34,8 @@ Parasited Pack
 	paras targeting armor stands (not stone statues, those die at some point)
     make LC portal phase lock phase 5
     hydra coth immune
+	no loot reduction on lure components
+	no blood tears in ow
 
 Oceanic Expanse
 
