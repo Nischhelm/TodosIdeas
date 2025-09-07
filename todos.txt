@@ -29,6 +29,8 @@ SRPMixins
     lures/carcasses need to be fixed
         blacklist lures until phase they belong to
 	    lures can max decrease 1 phase
+	store evolution times/killcount for despawning mobs and give them back to mobs that spawn after (mainly inborn)
+	parasite xp vary by dimension
 
 RLCraft
 
@@ -74,6 +76,7 @@ Parasited Pack
 	remove coth somehow
 	no bloodmoon until phase 4?
 	disable/go through OE enchants
+	no coth if living/sentient armor?
 
 Socketed
  
