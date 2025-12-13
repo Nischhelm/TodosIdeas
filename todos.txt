@@ -102,9 +102,6 @@ Socketed
 	passive temp change (simplediff)
 	max number of targets for aoe effects
 
-eaglemixins
-    toolbelt radiation
-
 vcfix
     autoskirting
     blocks shouldnt break with glass particles
