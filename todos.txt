@@ -19,18 +19,23 @@ SRPMixins
 	slowly reduce adaptation on parasites
 	make min/max days be play time dependent, maybe also move cooldown there, its stupid. at least for player phases
 	distance between nodes different in LC
-	how fast do you get higher lvls of viral/bleeding on touch mob
 	insane point increase when beckons/dispatchers fail to create idk
 	biome blacklists until phase x
 	fear air dmg multi only on flight
 	overhaul scents
-     why did sergs dispatcher regrow all the time
+        why did sergs dispatcher regrow all the time
     fix point gain from in&out of bed
     lures/carcasses need to be fixed
         blacklist lures until phase they belong to
 	    lures can max decrease 1 phase
 	store evolution times/killcount for despawning mobs and give them back to mobs that spawn after (mainly inborn)
 	parasite xp vary by dimension
+	host should only summon and attack when emerged
+	living/sentient shield? and chickens lance thing
+	block breaklist with metadata
+	other nexus can make colonies/nodes
+    some kinda thing with hitting paras for higher dmg over "Learning", or hitting stronger when adapted (maul?)
+    mobs getting cothed with your gear should drop that gear
 
 RLCraft
 
@@ -42,12 +47,14 @@ RLCraft
 	throwing crates in multi with autorefill
 	brew stand shift click
 	fix hcc darkness
-	log off without dismount deletes mount
+	log off without dismount deletes mount -> rltweaker
 	osmo 2^32-1 xp bug on gold shield break
     enchanted wolf armor in chests
         add str vit and some other shit to wolf armor?
     rustic crushing tub deletes items?
         update rustic compat code in rlmixins/tweaker idk
+    cartographers dregora thing
+    should elytra get bauble qualities
 
 AntiqueAtlasAutoMarker
  
@@ -56,13 +63,15 @@ AntiqueAtlasAutoMarker
 	librarian button better
 	all "antiqueatlas:" gone from marker type naming
 	search bar
-	village tiles not showing up in dregora/RTG
-	    not by default, must be some kinda crash over time
     last dismount position (wheres my dragon?)
     last backpack place position -> backpack marker
-    village waystone auto mark as structure (instead of village marker)
     roguelikes (for kamei)
     auto mark dregora structs
+    end pillar tiles
+    configify the biome detector event for biome tile?
+    ice village tiles
+    fix custom tiles reverting to plains
+    see other players that have your atlas
  
 Parasited Pack
  
@@ -73,10 +82,11 @@ Parasited Pack
 	no point reduction to below phase 3 in end
 	add blocks with hardness so ppl can make bases
 	add simplenightmares?
-	remove coth somehow
 	no bloodmoon until phase 4?
 	disable/go through OE enchants
 	no coth if living/sentient armor?
+	add voice detection on parasites via proximity
+	spartan & parasites? what about sentient nunchuks?
 
 Socketed
  
@@ -92,14 +102,8 @@ Socketed
 	passive temp change (simplediff)
 	max number of targets for aoe effects
 
-Mind Palaces
-
-	travel delay on world time, max stay on play time
-	mindpalace enter-block after relog
-
-lycatweaks
-
-	go over the rest of the configs
+eaglemixins
+    toolbelt radiation
 
 vcfix
     autoskirting
@@ -108,5 +112,11 @@ vcfix
 
 fermiummixins
     mixin to change tooltips to calc and display attribute modifiers correctly
+    qualitytools gui shows current quality without attributes
 	
 upload my mods to modrinth
+
+wornhorseshoes
+    enchant leatherworker horseshoes trade lightly (fw1 should be possible)
+    dyable leather horse armor
+    fix armor+shoes cant be enchanted in ench table

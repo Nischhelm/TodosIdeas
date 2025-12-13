@@ -6,14 +6,6 @@ AntiqueAtlasAutoMarker
 
 	draw circle of free tp cost
 
-SoManyEnchantments
- 
-	can apply sentient greataxe
-	event to catch in SME to disallow upgrading for reskillable
-	all subscribers in one subscriber
-	enchantment swapping container
-	disenchanting makes "unrepairable"
-
 SRPMixins
 
 	item that reduces spawns around player
