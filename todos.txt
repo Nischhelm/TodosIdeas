@@ -25,14 +25,9 @@ SRPMixins
 	overhaul scents
         why did sergs dispatcher regrow all the time
     fix point gain from in&out of bed
-    lures/carcasses need to be fixed
-        blacklist lures until phase they belong to
-	    lures can max decrease 1 phase
 	store evolution times/killcount for despawning mobs and give them back to mobs that spawn after (mainly inborn)
-	parasite xp vary by dimension
 	host should only summon and attack when emerged
 	living/sentient shield? and chickens lance thing
-	block breaklist with metadata
 	other nexus can make colonies/nodes
     some kinda thing with hitting paras for higher dmg over "Learning", or hitting stronger when adapted (maul?)
     mobs getting cothed with your gear should drop that gear
@@ -116,3 +111,4 @@ wornhorseshoes
     enchant leatherworker horseshoes trade lightly (fw1 should be possible)
     dyable leather horse armor
     fix armor+shoes cant be enchanted in ench table
+    fix issue with essentialmod
