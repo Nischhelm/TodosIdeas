@@ -109,7 +109,6 @@ vcfix
 
 fermiummixins
     mixin to change tooltips to calc and display attribute modifiers correctly
-    qualitytools gui shows current quality without attributes
 	
 upload my mods to modrinth
 
