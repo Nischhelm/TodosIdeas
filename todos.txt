@@ -6,7 +6,6 @@ SoManyEnchantments
 	all subscribers in one subscriber
 	enchantment swapping container
 	disenchanting makes "unrepairable"
-    rune revival check if it works on armor
 
 SRPMixins
 
@@ -41,7 +40,6 @@ RLCraft
 		quickmove crafting table + merchant hotbar -> inventory should go to crafting/merchant directly, same with carpentry bench
 	throwing crates in multi with autorefill
 	brew stand shift click
-	fix hcc darkness
 	log off without dismount deletes mount -> rltweaker
 	osmo 2^32-1 xp bug on gold shield break
     enchanted wolf armor in chests
