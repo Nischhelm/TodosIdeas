@@ -31,8 +31,6 @@ potion control mod
 inventory quick move control mod
 	needs auto mixin target feature im not sure how yet
 
-config hotswap mod
-
 actual reputation mod
 	golems+aegis attack
 	maybe also on block break/chest open and being seen
