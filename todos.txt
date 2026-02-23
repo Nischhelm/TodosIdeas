@@ -55,7 +55,6 @@ AntiqueAtlasAutoMarker
 	waystone markers get added+removed again and agn
 	librarian button better
 	all "antiqueatlas:" gone from marker type naming
-	search bar
     last dismount position (wheres my dragon?)
     last backpack place position -> backpack marker
     roguelikes (for kamei)
@@ -64,7 +63,6 @@ AntiqueAtlasAutoMarker
     configify the biome detector event for biome tile?
     ice village tiles
     fix custom tiles reverting to plains
-    see other players that have your atlas
  
 Parasited Pack
  
@@ -80,12 +78,10 @@ Parasited Pack
 	no coth if living/sentient armor?
 	add voice detection on parasites via proximity
 	spartan & parasites? what about sentient nunchuks?
+	extract milky pot from deadblood?
+	upgrade supreme boa 5 to parasite slicer 1 with item you get from amalgalich
 
 Socketed
- 
-	enchantment glint if socketed?
-	make it a block
-	rlsocketed: + x in reskillable lvl
 	simplediff remove thirst effect
 	explosion that sets shit on fire
 	remove potion effects on take off gear (check xat i guess?)
@@ -97,8 +93,6 @@ Socketed
 
 vcfix
     autoskirting
-    blocks shouldnt break with glass particles
-        this one is only solvable via resourcepack / resources folder, eagle might do it
 
 fermiummixins
     mixin to change tooltips to calc and display attribute modifiers correctly
@@ -109,4 +103,3 @@ wornhorseshoes
     enchant leatherworker horseshoes trade lightly (fw1 should be possible)
     dyable leather horse armor
     fix armor+shoes cant be enchanted in ench table
-    fix issue with essentialmod

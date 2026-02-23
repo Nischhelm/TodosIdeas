@@ -22,8 +22,6 @@ Socketed
 	sound effects / clientside stuff / particles
 	custom particles mod compat
 
-incontrol wrapper mod
-
 potion control mod
 	blacklists for random shit
 	context for what can remove what
