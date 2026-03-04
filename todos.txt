@@ -69,7 +69,6 @@ Parasited Pack
 	differentiate phase 8/9/10
 		variants as increased chances
 		chance for infernal/champ increased?
-	no point reduction to below phase 3 in end
 	add blocks with hardness so ppl can make bases
 	add simplenightmares?
 	no bloodmoon until phase 4?
