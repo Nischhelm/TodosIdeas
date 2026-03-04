@@ -71,7 +71,6 @@ Parasited Pack
 		chance for infernal/champ increased?
 	add blocks with hardness so ppl can make bases
 	add simplenightmares?
-	no bloodmoon until phase 4?
 	parasites ignore light lvl depending on dimension (end)
 	no coth if living/sentient armor?
 	add voice detection on parasites via proximity
