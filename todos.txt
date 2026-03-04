@@ -22,7 +22,6 @@ SRPMixins
 	biome blacklists until phase x
 	fear air dmg multi only on flight
 	overhaul scents
-        why did sergs dispatcher regrow all the time
     fix point gain from in&out of bed
 	store evolution times/killcount for despawning mobs and give them back to mobs that spawn after (mainly inborn)
 	host should only summon and attack when emerged
@@ -74,7 +73,7 @@ Parasited Pack
 	add blocks with hardness so ppl can make bases
 	add simplenightmares?
 	no bloodmoon until phase 4?
-	disable/go through OE enchants
+	parasites ignore light lvl depending on dimension (end)
 	no coth if living/sentient armor?
 	add voice detection on parasites via proximity
 	spartan & parasites? what about sentient nunchuks?
