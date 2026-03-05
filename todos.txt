@@ -56,7 +56,6 @@ AntiqueAtlasAutoMarker
 	all "antiqueatlas:" gone from marker type naming
     last dismount position (wheres my dragon?)
     last backpack place position -> backpack marker
-    roguelikes (for kamei)
     auto mark dregora structs
     end pillar tiles
     configify the biome detector event for biome tile?
@@ -93,6 +92,7 @@ vcfix
 
 fermiummixins
     mixin to change tooltips to calc and display attribute modifiers correctly
+    recipe to make silt from 2-8 diff baubles
 	
 upload my mods to modrinth
 
