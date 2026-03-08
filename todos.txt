@@ -98,4 +98,3 @@ upload my mods to modrinth
 
 wornhorseshoes
     dyable leather horse armor
-    fix armor+shoes cant be enchanted in ench table
