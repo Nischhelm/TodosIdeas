@@ -72,7 +72,6 @@ Parasited Pack
 	add simplenightmares?
 	parasites ignore light lvl depending on dimension (end)
 	no coth if living/sentient armor?
-	add voice detection on parasites via proximity
 	spartan & parasites? what about sentient nunchuks?
 	extract milky pot from deadblood?
 	upgrade supreme boa 5 to parasite slicer 1 with item you get from amalgalich
@@ -86,6 +85,7 @@ Socketed
 	replace dmg map with a different ddd dmg type
 	passive temp change (simplediff)
 	max number of targets for aoe effects
+	execute command effect
 
 vcfix
     autoskirting
@@ -98,3 +98,6 @@ upload my mods to modrinth
 
 wornhorseshoes
     dyable leather horse armor
+
+enchantmentcontrol
+    jei compat for max (+min) lvl
