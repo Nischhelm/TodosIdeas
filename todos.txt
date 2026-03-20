@@ -4,7 +4,6 @@ SoManyEnchantments
 	can apply sentient greataxe
 	event to catch in SME to disallow upgrading for reskillable
 	all subscribers in one subscriber
-	enchantment swapping container
 	disenchanting makes "unrepairable"
 
 SRPMixins
@@ -61,6 +60,7 @@ AntiqueAtlasAutoMarker
     configify the biome detector event for biome tile?
     ice village tiles
     fix custom tiles reverting to plains
+    cherryon grove bop cherry tile
  
 Parasited Pack
  
@@ -77,15 +77,10 @@ Parasited Pack
 	upgrade supreme boa 5 to parasite slicer 1 with item you get from amalgalich
 
 Socketed
-	simplediff remove thirst effect
-	explosion that sets shit on fire
-	remove potion effects on take off gear (check xat i guess?)
-	attack cooldown condition
-	check if activators only activate on specific bodypart hit
 	replace dmg map with a different ddd dmg type
-	passive temp change (simplediff)
-	max number of targets for aoe effects
-	execute command effect
+	+levelup skill
+	ismounted condition
+    break containing itemstack effect
 
 vcfix
     autoskirting
@@ -93,11 +88,12 @@ vcfix
 fermiummixins
     mixin to change tooltips to calc and display attribute modifiers correctly
     recipe to make silt from 2-8 diff baubles
-	
+
 upload my mods to modrinth
 
 wornhorseshoes
-    dyable leather horse armor
+    sitting horses mod
+    new mc horse textures
 
 enchantmentcontrol
     jei compat for max (+min) lvl
