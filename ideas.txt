@@ -22,10 +22,6 @@ Socketed
 	sound effects / clientside stuff / particles
 	custom particles mod compat
 
-potion control mod
-	blacklists for random shit
-	context for what can remove what
-
 inventory quick move control mod
 	needs auto mixin target feature im not sure how yet
 

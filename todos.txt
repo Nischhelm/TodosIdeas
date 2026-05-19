@@ -15,7 +15,6 @@ SRPMixins
 	tozoon apparently being weird idk
 	smth about dispatcher spawns, go through the dispatcher code
 	slowly reduce adaptation on parasites
-	make min/max days be play time dependent, maybe also move cooldown there, its stupid. at least for player phases
 	distance between nodes different in LC
 	insane point increase when beckons/dispatchers fail to create idk
 	biome blacklists until phase x
@@ -70,10 +69,8 @@ RLCraft Parasited
 	skybase stop later phase and maybe differently (incontrol?)
 	differentiate phase 8/9/10
 		variants as increased chances
-		chance for infernal/champ increased?
 	add blocks with hardness so ppl can make bases
 	add simplenightmares?
-	parasites ignore light lvl depending on dimension (end)
 	no coth if living/sentient armor? -> id rather have ppl spread coth when wearing armor
 	spartan & parasites? what about sentient nunchuks?
 	extract milky pot from deadblood?
@@ -126,5 +123,3 @@ wornhorseshoes
     new mc horse textures
     horseman backport?
 
-enchantmentcontrol
-    jei compat for max (+min) lvl
