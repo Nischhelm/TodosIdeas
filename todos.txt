@@ -122,3 +122,4 @@ wornhorseshoes
     new mc horse textures
     horseman backport?
 
+sme: re-add safety check against re-enchanting somehow
