@@ -2,10 +2,6 @@ RLCraft Luckified
  
 	Socketed stuff once Socketed releases
 
-AntiqueAtlasAutoMarker
-
-	draw circle of free tp cost
-
 SRPMixins
 
 	item that reduces spawns around player
@@ -29,8 +25,6 @@ actual reputation mod
 	golems+aegis attack
 	maybe also on block break/chest open and being seen
 	increase prices or refuse
-	
-end render dist override serverside
 
 callable pets mod
     with gui that shows all pets from all mods
