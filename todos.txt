@@ -20,7 +20,7 @@ SRPMixins
 	insane point increase when beckons/dispatchers fail to create idk
 	biome blacklists until phase x
 	fear air dmg multi only on flight
-	overhaul scents
+	overhaul scents, make them have a boss bar
     fix point gain from in&out of bed
 	store evolution times/killcount for despawning mobs and give them back to mobs that spawn after (mainly inborn)
 	host should only summon and attack when emerged
@@ -45,7 +45,9 @@ RLCraft
     rustic crushing tub deletes items?
         update rustic compat code in rlmixins/tweaker idk
     cartographers dregora thing
+        cartographers parasited/2.10 thing?!
     should elytra get bauble qualities
+    throwing rocks with itemphysics hurts
 
 AntiqueAtlasAutoMarker
  
@@ -61,8 +63,9 @@ AntiqueAtlasAutoMarker
     ice village tiles
     fix custom tiles reverting to plains
     cherryon grove bop cherry tile
+    decouple end city marking from village marking in base AA
  
-Parasited Pack
+RLCraft Parasited
  
 	skybase stop later phase and maybe differently (incontrol?)
 	differentiate phase 8/9/10
@@ -71,16 +74,43 @@ Parasited Pack
 	add blocks with hardness so ppl can make bases
 	add simplenightmares?
 	parasites ignore light lvl depending on dimension (end)
-	no coth if living/sentient armor?
+	no coth if living/sentient armor? -> id rather have ppl spread coth when wearing armor
 	spartan & parasites? what about sentient nunchuks?
 	extract milky pot from deadblood?
 	upgrade supreme boa 5 to parasite slicer 1 with item you get from amalgalich
+	silver dragonsteel?
+	why some connected chests not render (also in 2.10 v2?)
+	mobends x armor trims
+	remove turtle shell potion brew recipe, or generally via potioncontrol
+	fully adapted malleable (disp stage 4 specifically) remember player as attack target forever
+	add immalleable somehow or change  how adaptation works like iqu said
+    check wizard master trades works correct? - i want them to save their upgraded tier
+    nether api x better nether terrain whats going on
+    player phase x chunk phase
+    coth on player increases player phase
+    upgrade lure lvl with materials like nether star or end stone or quark spores or whatever
+    stronghold overwrite -> portal is already open and green -> leads to source dimension
+        using lyca spawner spawning mobs out of it
+    modify LC spawners
+    fix ec anvil count x sme no cost on book x book
+    backpack worn desync
+    bauble modifier only appearing after resync
+    quality attribute modifiers not applying on clientside if just rolled
+    nerf heal its too op, cooldown or higher mana cost or whatever
+    shift lcick horseshoes
+    creeperconfetti volume/distance check, its too far
+    nerf strength
+    L menu + magic dmg
+    button to make all your summons attack smth in your crosshair, also far away
+    bauble modifiers for projectile dmg and magic dmg
+    summons keep equipment
 
 Socketed
 	replace dmg map with a different ddd dmg type
 	+levelup skill
 	ismounted condition
     break containing itemstack effect
+    info that no sockets on item in gui
 
 vcfix
     autoskirting
@@ -94,6 +124,7 @@ upload my mods to modrinth
 wornhorseshoes
     sitting horses mod
     new mc horse textures
+    horseman backport?
 
 enchantmentcontrol
     jei compat for max (+min) lvl
