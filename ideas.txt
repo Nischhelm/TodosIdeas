@@ -1,10 +1,12 @@
 RLCraft Luckified
  
 	Socketed stuff once Socketed releases
+	Increase chance for sockets?
+
 
 SRPMixins
 
-	item that reduces spawns around player
+	item that reduces spawns around player or stops parasites entirely somehow
 
 QualityTools Addon
  

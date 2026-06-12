@@ -1,12 +1,9 @@
-loot tables are weird
 spells shouldnt be able to put into slots if they cant be applied
 should show how much mana you get from the crystal
 is cop a problem with misfiring of spells?
-special enchantments that shouldnt be accessible in survival sold by librarians
 summons can be blight and drop heart crystal shards
-make ebwiz potion effects unaffected by wine?
-POCKET WORKBENCH DELETES ITEMS
 
+addons:
 
 https://www.curseforge.com/minecraft/mc-mods/arcane-essentials favouritedragon
 
