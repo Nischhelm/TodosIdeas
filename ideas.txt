@@ -3,10 +3,8 @@ RLCraft Luckified
 	Socketed stuff once Socketed releases
 	Increase chance for sockets?
 
-
-SRPMixins
-
-	item that reduces spawns around player or stops parasites entirely somehow
+Turn all reccomplex (+ruins?) chests to loottables, maybe with a custom lootfunction
+-> makes lootr work?
 
 QualityTools Addon
  
@@ -30,3 +28,7 @@ actual reputation mod
 
 callable pets mod
     with gui that shows all pets from all mods
+
+extend JER loottable view to tables in tables in tables
+
+mod for "collection books"
