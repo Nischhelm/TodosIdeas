@@ -4,6 +4,7 @@ SoManyEnchantments
 	idea by shiv: disenchanting makes "unrepairable" ?!
     re-add safety check against general re-enchanting somehow without stopping ec reenchanting
     fix some enchants not being lvl upgradeable (load order?)
+    answer/test issue #31 Villager Spawn Issue
 
 SRPMixins
     para biome limit fix -> spreads weirdly
@@ -32,6 +33,7 @@ SRPMixins
     source dimension should generate para biome features
     register adaptation reset recipe in JEI
     itemstack cap sync doesnt work correctly cause creative mode client can override server and delete the data
+    make enchants a separate mod
 ideas:
 	item that reduces spawns around player or stops parasites entirely somehow
 
@@ -39,11 +41,15 @@ Fermiumbooter 1.20.1
     check if new values are written into existing file/file overwritable?
     add mixinsquared?
     add super-toggle (if that toggle is off, this one is off too)
+FermiumBooter normal
+    doesnt pick up on added mods from file director
 
 PotionControl
 
     fix potion recipes bugging out
-	remove turtle shell potion brew recipe, or generally
+	make vanilla potions+potiontypes unregisterable like issue #1 says
+	    unregistered potiontypes shouldnt display correctly anymore
+    allow to tweak dmg/heal values of various vanilla pots
 
 EnchantmentControl
     soul speed?
@@ -51,29 +57,22 @@ EnchantmentControl
 
 RLCraft
 
-java.lang.IllegalArgumentException: bound must be positive
-    at java.util.Random.nextInt(Random.java:388)
-    at melonslise.locks.common.config.LocksConfig.getRandomLock(LocksConfig.java:244)
-    at melonslise.locks.common.capability.LockableWorldGenHandler.tryGeneratingLocks(LockableWorldGenHandler.java:132)
-    at melonslise.locks.common.event.LocksDelayEvents.pollChunksInWorld(LocksDelayEvents.java:114)
-
 	add various items to golden osmosis like hoe etc
 	gui overhaul
 		carpentry bench inventory sort
 		quickmove crafting table + merchant hotbar -> inventory should go to crafting/merchant directly, same with carpentry bench
-	placing crates in multiplayer with autorefill has the last one being thrown out of inventory sometimes
 	brew stand shift click doesnt work with stacks correctly
 	iqury: osmo 2^32-1 xp bug on gold shield break --> how
     rustic crushing tub deletes items?
     cartographers dregora thing
         cartographers parasited/2.10 thing?!
     throwing rocks with itemphysics hurts
-    bauble modifier only appearing after resync
-    quality attribute modifiers not applying on clientside if just rolled
-    fix backpack dye changing modifier
-    fix rain in nether
     fix sprint on boat
     rocket recipe in jei and craftingrecipe as well ig?
+    magma+water = cobble
+Dregora
+    PR my changes
+    wrong bronze ingot drops from stymphs and others
 
 AntiqueAtlasAutoMarker
  
@@ -92,8 +91,6 @@ AntiqueAtlasAutoMarker
     allow nether cave wall by biome
     put villager marker at position of villager
     mark bo3/bo4 OTG structs
-    put a border around the search bar
-        wehre the fuck even is the search bar
 
 RLCraft Parasited
  
@@ -102,7 +99,6 @@ RLCraft Parasited
 		variants as increased chances
 	add blocks with hardness so ppl can make bases
 	add simplenightmares?
-	no coth if living/sentient armor? -> id rather have ppl spread coth when wearing armor
 	spartan & parasites? what about sentient nunchuks?
 	mobends x armor trims
 	fully adapted malleable (disp stage 4 specifically) remember player as attack target forever
@@ -112,36 +108,22 @@ RLCraft Parasited
         using lyca spawner spawning mobs out of it
     modify LC spawners somehow
     creeperconfetti volume/distance check, its too loud/goes too far
-    nerf strength, buff instant health, maybe health boost operation
     L menu + magic dmg/mana cost etc
     button to make all your summons attack smth in your crosshair, also far away
     bauble modifiers for projectile dmg and magic dmg
     grapple skill shouldnt affect players
         or edrags
-    eaglemixins crossbow skellies dont shoot
     anti-lure that kills surrounding parasites but increases points by a lot
     throwing weapon issue where it throws multiple in one rightclick release
         prob server lag thing?
     supremeartofwar: lycanite liquid purifying with ghast tears results in bucket duping
-    fix ender staff not working when targeting blocks
-    fix amphi going to follow if you hop off like 3 blocks above ground
     give neptunium conduit effect
-    BIGG xp tome for 120 lvls
     make curse break tome actually work
     check+balance LC spawns in unparasited
-    evil wizards can drop robes still
-    java.util.ConcurrentModificationException: null
-    	at java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:719) ~[?:1.8.0_312]
-    	at java.util.LinkedHashMap$LinkedKeyIterator.next(LinkedHashMap.java:742) ~[?:1.8.0_312]
-    	at com.fantasticsource.setbonus.client.TooltipRenderer.tooltips(TooltipRenderer.java:94) ~[TooltipRenderer.class:?]
 Dregora Parasited
     chunk phases force lair of the thing etc to be at least phase 4 or smth
-    why does optifine not get detected by fermiumbooter on first startup/filedirector
     penetration/vitality re-enable? depends on eagles loot
-    compare iqury vs eagle and see if got everything. i dont got dimension multis in srpmixins for overworld
-        only apply those multis in the original parasite biomes that eagle allowed
-    kitchen counters from cookingforblockheads for some reason keep giving loot, they dont delete their loottable
-    why do quark tomes not work
+    dimension multis in srpmixins for overworld only apply those multis in the original parasite biomes that eagle allowed
 
 Socketed
 	replace dmg map with a different ddd dmg type
@@ -158,7 +140,6 @@ vcfix
 
 fermiummixins
     recipe to make silt from 2-8 diff baubles
-    add fix for enchantrandomly to not softcrash if it doesnt find one of the given enchants
 
 wornhorseshoes
     request: sitting horses mod https://www.curseforge.com/minecraft/mc-mods/horseinboat
@@ -167,10 +148,20 @@ wornhorseshoes
         two players on horse
     private horses: no one else can use your horse
 
-website
-    fix minigame textures
-
 compare my rlenchbooks with normal rlenchbooks
 
 mindpalaces
-    shouldnt be able to mine the walls or at least it shouldnt drop anything
+    cfg to stay forever if entering from waystone
+
+eaglemixins
+    corium buckets should radiate
+    fix crossbow skellies dont shoot
+    mark specified OTG structs so we know where they are
+    disarm vs looting on sentient stuff
+    vc crates etc should have loottable ability
+
+my server
+    auto starts on bloodmoon and lyca events (fakes cycles), as well as seasons
+
+luckified
+    write on chests+enchanted items what lvl they had rolled on luck

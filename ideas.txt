@@ -3,6 +3,8 @@ RLCraft Luckified
 	Socketed stuff once Socketed releases
 	Increase chance for sockets?
 
+arcane archives reduced
+
 Turn all reccomplex (+ruins?) chests to loottables, maybe with a custom lootfunction
 -> makes lootr work?
 
