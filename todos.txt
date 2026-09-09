@@ -1,10 +1,6 @@
 SoManyEnchantments
 
-	event to catch in SME to disallow upgrading for reskillable
-	idea by shiv: disenchanting makes "unrepairable" ?!
     re-add safety check against general re-enchanting somehow without stopping ec reenchanting
-    fix some enchants not being lvl upgradeable (load order?)
-    answer/test issue #31 Villager Spawn Issue
 
 SRPMixins
     para biome limit fix -> spreads weirdly
@@ -52,12 +48,9 @@ PotionControl
     allow to tweak dmg/heal values of various vanilla pots
 
 EnchantmentControl
-    soul speed?
-    anvil: book + some enchanted item -> pull off enchants the book has
 
 RLCraft
 
-	add various items to golden osmosis like hoe etc
 	gui overhaul
 		carpentry bench inventory sort
 		quickmove crafting table + merchant hotbar -> inventory should go to crafting/merchant directly, same with carpentry bench
@@ -70,9 +63,11 @@ RLCraft
     fix sprint on boat
     rocket recipe in jei and craftingrecipe as well ig?
     magma+water = cobble
+    i guess spriggan pet vs leaf litter
 Dregora
     PR my changes
     wrong bronze ingot drops from stymphs and others
+    scarecrow head common renders sky weird
 
 AntiqueAtlasAutoMarker
  
@@ -120,10 +115,14 @@ RLCraft Parasited
     give neptunium conduit effect
     make curse break tome actually work
     check+balance LC spawns in unparasited
+    dwarf mines way too fast?
+    smelt iron doors+trapdoors+bars
 Dregora Parasited
     chunk phases force lair of the thing etc to be at least phase 4 or smth
     penetration/vitality re-enable? depends on eagles loot
     dimension multis in srpmixins for overworld only apply those multis in the original parasite biomes that eagle allowed
+    decide what doesnt get pinatad
+    biomes are fucked eagle doesnt know what to do look into it
 
 Socketed
 	replace dmg map with a different ddd dmg type
@@ -148,8 +147,6 @@ wornhorseshoes
         two players on horse
     private horses: no one else can use your horse
 
-compare my rlenchbooks with normal rlenchbooks
-
 mindpalaces
     cfg to stay forever if entering from waystone
 
@@ -165,3 +162,5 @@ my server
 
 luckified
     write on chests+enchanted items what lvl they had rolled on luck
+
+zenutils mixin tutorial
