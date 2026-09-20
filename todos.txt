@@ -30,6 +30,7 @@ SRPMixins
     register adaptation reset recipe in JEI
     itemstack cap sync doesnt work correctly cause creative mode client can override server and delete the data
     make enchants a separate mod
+    projectile.damageArmor and attackminimum should prob always only run if actual attack landed
 ideas:
 	item that reduces spawns around player or stops parasites entirely somehow
 
@@ -42,12 +43,12 @@ FermiumBooter normal
 
 PotionControl
 
-    fix potion recipes bugging out
-	make vanilla potions+potiontypes unregisterable like issue #1 says
-	    unregistered potiontypes shouldnt display correctly anymore
     allow to tweak dmg/heal values of various vanilla pots
+        add lots of different typical effects for potions in their info
+        use linear vs exponential for vanilla like behavior
 
 EnchantmentControl
+    add ct api to control whether vills get to be librarians and what enchants the ycan get
 
 RLCraft
 
@@ -108,21 +109,50 @@ RLCraft Parasited
     bauble modifiers for projectile dmg and magic dmg
     grapple skill shouldnt affect players
         or edrags
+        also should aggro
     anti-lure that kills surrounding parasites but increases points by a lot
     throwing weapon issue where it throws multiple in one rightclick release
         prob server lag thing?
     supremeartofwar: lycanite liquid purifying with ghast tears results in bucket duping
     give neptunium conduit effect
-    make curse break tome actually work
     check+balance LC spawns in unparasited
     dwarf mines way too fast?
+    does night shade actually drop a soulstone
+    add laputan https://www.curseforge.com/minecraft/mc-mods/laputan
+    reduce playernausea bs from rlmixins
+    more enchants in loot
+    why does jeiwt villager marker sometimes lose translation
+    fix socket gems
+    disable phaselock in underneath
     smelt iron doors+trapdoors+bars
+    smelt shears
+    smelt saw+mattock+knife
+    gnats shouldnt spawn before phase 3 (look at assim evoker)
+    remove carbon config dependency viewer hotkey
+    ender staff doesnt take dura dmg
+    add chance for conversion (troll->crux)
+
+    RightClicking with offhand loot tag
+    java.lang.ClassCastException: net.minecraft.item.ItemAir cannot be cast to ivorius.reccomplex.item.ItemLootGenSingleTag
+        at ivorius.reccomplex.gui.loot.TableDataSourceLootGeneratorSingleTag.lambda$new$1(TableDataSourceLootGeneratorSingleTag.java:26)
+        at ivorius.reccomplex.gui.table.datasource.TableDataSourceSupplied.cellForIndex(TableDataSourceSupplied.java:58)
+        at ivorius.reccomplex.gui.table.datasource.TableDataSourceSegmented.cellForIndexInSegment(TableDataSourceSegmented.java:122)
+        at ivorius.reccomplex.gui.table.datasource.TableDataSourceSegmented.cellForIndex(TableDataSourceSegmented.java:100)
+        at ivorius.reccomplex.gui.table.GuiTable.initGui(GuiTable.java:165)
+        at ivorius.reccomplex.gui.table.screen.GuiScreenModalTable.initGui(GuiScreenModalTable.java:45)
+        at ivorius.reccomplex.gui.table.screen.GuiScreenEditTable.initGui(GuiScreenEditTable.java:70)
+        at net.minecraft.client.gui.GuiScreen.setWorldAndResolution(GuiScreen.java:478)
+        at net.minecraft.client.Minecraft.displayGuiScreen(Minecraft.java:1018)
+        at ivorius.reccomplex.item.ItemLootGenSingleTag.openGui(ItemLootGenSingleTag.java:61)
+        at ivorius.reccomplex.item.ItemLootGenSingleTag.onItemRightClick(ItemLootGenSingleTag.java:53)
+        at net.minecraft.item.ItemStack.useItemRightClick(ItemStack.java:217)
+
 Dregora Parasited
     chunk phases force lair of the thing etc to be at least phase 4 or smth
-    penetration/vitality re-enable? depends on eagles loot
     dimension multis in srpmixins for overworld only apply those multis in the original parasite biomes that eagle allowed
-    decide what doesnt get pinatad
+    why does bop pine boat fall so fast
     biomes are fucked eagle doesnt know what to do look into it
+    stop ebwiz towers in certain dregussy biomes like abyssal etc
 
 Socketed
 	replace dmg map with a different ddd dmg type
@@ -141,6 +171,7 @@ fermiummixins
     recipe to make silt from 2-8 diff baubles
 
 wornhorseshoes
+    zombie piglins shouldnt spawn on zombie horses
     request: sitting horses mod https://www.curseforge.com/minecraft/mc-mods/horseinboat
     request: new mc horse textures
     request: horseman backport?
@@ -148,7 +179,6 @@ wornhorseshoes
     private horses: no one else can use your horse
 
 mindpalaces
-    cfg to stay forever if entering from waystone
 
 eaglemixins
     corium buckets should radiate
@@ -162,5 +192,3 @@ my server
 
 luckified
     write on chests+enchanted items what lvl they had rolled on luck
-
-zenutils mixin tutorial
