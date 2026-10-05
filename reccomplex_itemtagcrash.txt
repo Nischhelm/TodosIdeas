@@ -1,0 +1,14 @@
+RightClicking with offhand loot tag
+java.lang.ClassCastException: net.minecraft.item.ItemAir cannot be cast to ivorius.reccomplex.item.ItemLootGenSingleTag
+    at ivorius.reccomplex.gui.loot.TableDataSourceLootGeneratorSingleTag.lambda$new$1(TableDataSourceLootGeneratorSingleTag.java:26)
+    at ivorius.reccomplex.gui.table.datasource.TableDataSourceSupplied.cellForIndex(TableDataSourceSupplied.java:58)
+    at ivorius.reccomplex.gui.table.datasource.TableDataSourceSegmented.cellForIndexInSegment(TableDataSourceSegmented.java:122)
+    at ivorius.reccomplex.gui.table.datasource.TableDataSourceSegmented.cellForIndex(TableDataSourceSegmented.java:100)
+    at ivorius.reccomplex.gui.table.GuiTable.initGui(GuiTable.java:165)
+    at ivorius.reccomplex.gui.table.screen.GuiScreenModalTable.initGui(GuiScreenModalTable.java:45)
+    at ivorius.reccomplex.gui.table.screen.GuiScreenEditTable.initGui(GuiScreenEditTable.java:70)
+    at net.minecraft.client.gui.GuiScreen.setWorldAndResolution(GuiScreen.java:478)
+    at net.minecraft.client.Minecraft.displayGuiScreen(Minecraft.java:1018)
+    at ivorius.reccomplex.item.ItemLootGenSingleTag.openGui(ItemLootGenSingleTag.java:61)
+    at ivorius.reccomplex.item.ItemLootGenSingleTag.onItemRightClick(ItemLootGenSingleTag.java:53)
+    at net.minecraft.item.ItemStack.useItemRightClick(ItemStack.java:217)
