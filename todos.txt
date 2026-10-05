@@ -8,29 +8,28 @@ SRPMixins
     go through dispatcher code
     slowly reduce adaptation on parasites over time
     distance between nodes different per dimension (lower in LC)
-    insane point increase when beckons/dispatchers fail to create idk
     biome blacklists stop working after phase x
     overhaul scents, make them have a boss bar
     fix point gain from spamming going in&out of bed
     store evolution times/killcount for despawning mobs and give them back to mobs that spawn after (mainly inborn)
     requested: host/herd should only summon and attack when emerged
     living/sentient shield? and chickens lance thing
-    requested: other nexus paras can make colonies/nodes
     some kinda thing with hitting paras for higher dmg over "Learning", or hitting stronger when adapted (maul?)
     mobs getting cothed with your gear should still drop that gear
     player phase x chunk phase
-    coth on player adds points to player phase
     noclassdeffound com.sun.jna.Platform SRPMixinsVoiceChatPlugin.onMicrophonePacket:50
     show mob adaptations in neat health bar
     spineballs and ancient pods not clearing/accumulating in lazy chunks
     buffing mobs (bolster/disp/col carr) use red orb visual in green to show them buffing the surrounding mobs
     overlast srp meter ticking up showing the numbers going up 1 by 1 +1 +1 +1 +5 +69
     nodes crash the game?
-    source dimension should generate para biome features
+    source dimension should generate para biome features better
     register adaptation reset recipe in JEI
     itemstack cap sync doesnt work correctly cause creative mode client can override server and delete the data
     make enchants a separate mod
     projectile.damageArmor and attackminimum should prob always only run if actual attack landed
+    fix dura dmg applied on pets etc from corrosion and srp shots
+    reset adaptations recipe seems to not work
 ideas:
 	item that reduces spawns around player or stops parasites entirely somehow
 
@@ -39,7 +38,8 @@ Fermiumbooter 1.20.1
     add mixinsquared?
     add super-toggle (if that toggle is off, this one is off too)
 FermiumBooter normal
-    doesnt pick up on added mods from file director
+    doesnt pick up on added mods from file director (optifine)
+    i suck
 
 PotionControl
 
@@ -48,7 +48,9 @@ PotionControl
         use linear vs exponential for vanilla like behavior
 
 EnchantmentControl
-    add ct api to control whether vills get to be librarians and what enchants the ycan get
+    add ct api to control whether vills get to be librarians and what enchants they can get
+    add ct api to control enchantment event with context (max lvl)
+    fix gh issues (multiline descriptions, incompat with enchtools)
 
 RLCraft
 
@@ -58,37 +60,40 @@ RLCraft
 	brew stand shift click doesnt work with stacks correctly
 	iqury: osmo 2^32-1 xp bug on gold shield break --> how
     rustic crushing tub deletes items?
-    cartographers dregora thing
-        cartographers parasited/2.10 thing?!
-    throwing rocks with itemphysics hurts
+    cartographers are useless in dregora
+    cartographers crash in parasited/2.10 due to rltweaker?
+    throwing rocks with itemphysics should hurt
     fix sprint on boat
     rocket recipe in jei and craftingrecipe as well ig?
-    magma+water = cobble
-    i guess spriggan pet vs leaf litter
+    smth laggy about spriggan pet vs leaf litter
+    fix firstaid hearts desyncing with main hearts sometimes --> freshGlitchs PR
+    fix vc lamps being indestructible
+
 Dregora
     PR my changes
     wrong bronze ingot drops from stymphs and others
     scarecrow head common renders sky weird
+    if you spawn in a block, tp to surface
 
 AntiqueAtlasAutoMarker
  
 	even better networking
-	waystone markers get added+removed again and agn
+	waystone markers get added+removed again and agn, same with enchants
 	remove all "antiqueatlas:" from marker types to save space
     last dismount position (wheres my dragon/amphi/boat?)
     last backpack place position -> backpack marker
-    auto mark dregora structs
     end pillar tiles
     configify the biome detector event for biome tile?
     ice village tiles
     fix custom tiles reverting to plains
     cherryon grove bop cherry tile --> already implemented but could use some alternatives
-    decouple end city marking from village marking in base AA
     allow nether cave wall by biome
-    put villager marker at position of villager
-    mark bo3/bo4 OTG structs
+    entity markers should have entity UUID attached
 
 RLCraft Parasited
+
+    respawn edrag get full xp per player
+    all blight doesnt spawn champions -> give infernals a chance 80%
  
 	skybase stop later phase and maybe differently (incontrol?)
 	differentiate phase 8/9/10
@@ -105,7 +110,6 @@ RLCraft Parasited
     modify LC spawners somehow
     creeperconfetti volume/distance check, its too loud/goes too far
     L menu + magic dmg/mana cost etc
-    button to make all your summons attack smth in your crosshair, also far away
     bauble modifiers for projectile dmg and magic dmg
     grapple skill shouldnt affect players
         or edrags
@@ -115,44 +119,25 @@ RLCraft Parasited
         prob server lag thing?
     supremeartofwar: lycanite liquid purifying with ghast tears results in bucket duping
     give neptunium conduit effect
-    check+balance LC spawns in unparasited
     dwarf mines way too fast?
     does night shade actually drop a soulstone
     add laputan https://www.curseforge.com/minecraft/mc-mods/laputan
-    reduce playernausea bs from rlmixins
     more enchants in loot
     why does jeiwt villager marker sometimes lose translation
     fix socket gems
-    disable phaselock in underneath
-    smelt iron doors+trapdoors+bars
-    smelt shears
-    smelt saw+mattock+knife
     gnats shouldnt spawn before phase 3 (look at assim evoker)
-    remove carbon config dependency viewer hotkey
     ender staff doesnt take dura dmg
     add chance for conversion (troll->crux)
-
-    RightClicking with offhand loot tag
-    java.lang.ClassCastException: net.minecraft.item.ItemAir cannot be cast to ivorius.reccomplex.item.ItemLootGenSingleTag
-        at ivorius.reccomplex.gui.loot.TableDataSourceLootGeneratorSingleTag.lambda$new$1(TableDataSourceLootGeneratorSingleTag.java:26)
-        at ivorius.reccomplex.gui.table.datasource.TableDataSourceSupplied.cellForIndex(TableDataSourceSupplied.java:58)
-        at ivorius.reccomplex.gui.table.datasource.TableDataSourceSegmented.cellForIndexInSegment(TableDataSourceSegmented.java:122)
-        at ivorius.reccomplex.gui.table.datasource.TableDataSourceSegmented.cellForIndex(TableDataSourceSegmented.java:100)
-        at ivorius.reccomplex.gui.table.GuiTable.initGui(GuiTable.java:165)
-        at ivorius.reccomplex.gui.table.screen.GuiScreenModalTable.initGui(GuiScreenModalTable.java:45)
-        at ivorius.reccomplex.gui.table.screen.GuiScreenEditTable.initGui(GuiScreenEditTable.java:70)
-        at net.minecraft.client.gui.GuiScreen.setWorldAndResolution(GuiScreen.java:478)
-        at net.minecraft.client.Minecraft.displayGuiScreen(Minecraft.java:1018)
-        at ivorius.reccomplex.item.ItemLootGenSingleTag.openGui(ItemLootGenSingleTag.java:61)
-        at ivorius.reccomplex.item.ItemLootGenSingleTag.onItemRightClick(ItemLootGenSingleTag.java:53)
-        at net.minecraft.item.ItemStack.useItemRightClick(ItemStack.java:217)
+    fix amphimod kicking you from amphi on logout
+    make globalgamerules only apply for specific settings
+    RTG kills strongholds
 
 Dregora Parasited
     chunk phases force lair of the thing etc to be at least phase 4 or smth
-    dimension multis in srpmixins for overworld only apply those multis in the original parasite biomes that eagle allowed
-    why does bop pine boat fall so fast
     biomes are fucked eagle doesnt know what to do look into it
     stop ebwiz towers in certain dregussy biomes like abyssal etc
+    remove radiation from MP
+    should ppl be allowed to go to LC via underneath
 
 Socketed
 	replace dmg map with a different ddd dmg type
@@ -166,6 +151,7 @@ Socketed
 
 vcfix
     autoskirting
+    make lamps not indestructible
 
 fermiummixins
     recipe to make silt from 2-8 diff baubles
@@ -179,6 +165,7 @@ wornhorseshoes
     private horses: no one else can use your horse
 
 mindpalaces
+    some better way to increase MP size in gameplay?
 
 eaglemixins
     corium buckets should radiate
@@ -189,6 +176,3 @@ eaglemixins
 
 my server
     auto starts on bloodmoon and lyca events (fakes cycles), as well as seasons
-
-luckified
-    write on chests+enchanted items what lvl they had rolled on luck
