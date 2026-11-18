@@ -1,35 +1,17 @@
 SoManyEnchantments
-
+    show bookshelf power better? in upgrading
     re-add safety check against general re-enchanting somehow without stopping ec reenchanting
 
 SRPMixins
     para biome limit fix -> spreads weirdly
-    tozoon taking dmg when tunneled
     go through dispatcher code
     slowly reduce adaptation on parasites over time
-    distance between nodes different per dimension (lower in LC)
-    biome blacklists stop working after phase x
     overhaul scents, make them have a boss bar
-    fix point gain from spamming going in&out of bed
     store evolution times/killcount for despawning mobs and give them back to mobs that spawn after (mainly inborn)
-    requested: host/herd should only summon and attack when emerged
-    living/sentient shield? and chickens lance thing
     some kinda thing with hitting paras for higher dmg over "Learning", or hitting stronger when adapted (maul?)
-    mobs getting cothed with your gear should still drop that gear
-    player phase x chunk phase
-    noclassdeffound com.sun.jna.Platform SRPMixinsVoiceChatPlugin.onMicrophonePacket:50
-    show mob adaptations in neat health bar
-    spineballs and ancient pods not clearing/accumulating in lazy chunks
     buffing mobs (bolster/disp/col carr) use red orb visual in green to show them buffing the surrounding mobs
-    overlast srp meter ticking up showing the numbers going up 1 by 1 +1 +1 +1 +5 +69
-    nodes crash the game?
-    source dimension should generate para biome features better
-    register adaptation reset recipe in JEI
-    itemstack cap sync doesnt work correctly cause creative mode client can override server and delete the data
-    make enchants a separate mod
     projectile.damageArmor and attackminimum should prob always only run if actual attack landed
     fix dura dmg applied on pets etc from corrosion and srp shots
-    reset adaptations recipe seems to not work
 ideas:
 	item that reduces spawns around player or stops parasites entirely somehow
 
@@ -37,46 +19,33 @@ Fermiumbooter 1.20.1
     check if new values are written into existing file/file overwritable?
     add mixinsquared?
     add super-toggle (if that toggle is off, this one is off too)
-FermiumBooter normal
-    doesnt pick up on added mods from file director (optifine)
-    i suck
 
 PotionControl
-
-    allow to tweak dmg/heal values of various vanilla pots
-        add lots of different typical effects for potions in their info
-        use linear vs exponential for vanilla like behavior
+    add lots of different typical (vanilla-style) effects for potions in their info
 
 EnchantmentControl
     add ct api to control whether vills get to be librarians and what enchants they can get
-    add ct api to control enchantment event with context (max lvl)
-    fix gh issues (multiline descriptions, incompat with enchtools)
+    ec in 1.20.1
 
 RLCraft
-
 	gui overhaul
 		carpentry bench inventory sort
 		quickmove crafting table + merchant hotbar -> inventory should go to crafting/merchant directly, same with carpentry bench
-	brew stand shift click doesnt work with stacks correctly
 	iqury: osmo 2^32-1 xp bug on gold shield break --> how
     rustic crushing tub deletes items?
     cartographers are useless in dregora
     cartographers crash in parasited/2.10 due to rltweaker?
     throwing rocks with itemphysics should hurt
-    fix sprint on boat
     rocket recipe in jei and craftingrecipe as well ig?
-    smth laggy about spriggan pet vs leaf litter
-    fix firstaid hearts desyncing with main hearts sometimes --> freshGlitchs PR
-    fix vc lamps being indestructible
 
 Dregora
-    PR my changes
     wrong bronze ingot drops from stymphs and others
     scarecrow head common renders sky weird
     if you spawn in a block, tp to surface
+    check if we can update nuclearcraft (fix with eaglemixins)
+    same with contentcreator (even needed still?)
 
 AntiqueAtlasAutoMarker
- 
 	even better networking
 	waystone markers get added+removed again and agn, same with enchants
 	remove all "antiqueatlas:" from marker types to save space
@@ -89,26 +58,23 @@ AntiqueAtlasAutoMarker
     cherryon grove bop cherry tile --> already implemented but could use some alternatives
     allow nether cave wall by biome
     entity markers should have entity UUID attached
+    whats up with the dregora markers, no lang key and no structure?
+    fix AAAM spamming "biome is null"
 
 RLCraft Parasited
-
     respawn edrag get full xp per player
     all blight doesnt spawn champions -> give infernals a chance 80%
- 
+    more random seasons? harsh or mild winter, forever winter etc
 	skybase stop later phase and maybe differently (incontrol?)
 	differentiate phase 8/9/10
 		variants as increased chances
-	add blocks with hardness so ppl can make bases
 	add simplenightmares?
 	spartan & parasites? what about sentient nunchuks?
 	mobends x armor trims
 	fully adapted malleable (disp stage 4 specifically) remember player as attack target forever
 	add immalleable somehow or change  how adaptation works like iqu said
     check wizard master trades works correct? - i want them to save their upgraded tier. or have a fixed tier
-    with shiv: stronghold overwrite -> portal is already open and green -> leads to source dimension
-        using lyca spawner spawning mobs out of it
     modify LC spawners somehow
-    creeperconfetti volume/distance check, its too loud/goes too far
     L menu + magic dmg/mana cost etc
     bauble modifiers for projectile dmg and magic dmg
     grapple skill shouldnt affect players
@@ -120,21 +86,21 @@ RLCraft Parasited
     supremeartofwar: lycanite liquid purifying with ghast tears results in bucket duping
     give neptunium conduit effect
     dwarf mines way too fast?
-    does night shade actually drop a soulstone
+    does night shade actually drop a soulstone? i dont think so
     add laputan https://www.curseforge.com/minecraft/mc-mods/laputan
     more enchants in loot
     why does jeiwt villager marker sometimes lose translation
-    fix socket gems
+        why does it sometimes show the entire tooltip
     gnats shouldnt spawn before phase 3 (look at assim evoker)
-    ender staff doesnt take dura dmg
     add chance for conversion (troll->crux)
-    fix amphimod kicking you from amphi on logout
-    make globalgamerules only apply for specific settings
-    RTG kills strongholds
+    saw + full melon = melon slices crafting recipe
+    socketed silver weapons in ice dragon pool not just sword
+    no comprehension in HCC
+    knifes only unbreaking mending etc
+    why are bloodtears in the overworld (nano dregora)
 
 Dregora Parasited
     chunk phases force lair of the thing etc to be at least phase 4 or smth
-    biomes are fucked eagle doesnt know what to do look into it
     stop ebwiz towers in certain dregussy biomes like abyssal etc
     remove radiation from MP
     should ppl be allowed to go to LC via underneath
@@ -142,12 +108,8 @@ Dregora Parasited
 Socketed
 	replace dmg map with a different ddd dmg type
 	+levelup skill
-	ismounted condition
     break containing itemstack effect
-    info that no sockets on item in gui
-    battletower loot with sockets
     what works on offhand/shields and what should work there (other than totem)
-    apparently the data gets deleted when you go into creative
 
 vcfix
     autoskirting
@@ -155,6 +117,7 @@ vcfix
 
 fermiummixins
     recipe to make silt from 2-8 diff baubles
+    maybe firstaid sync can kill ppl on clientside?
 
 wornhorseshoes
     zombie piglins shouldnt spawn on zombie horses
@@ -169,10 +132,21 @@ mindpalaces
 
 eaglemixins
     corium buckets should radiate
-    fix crossbow skellies dont shoot
-    mark specified OTG structs so we know where they are
     disarm vs looting on sentient stuff
     vc crates etc should have loottable ability
+    eaglemixins drown x infmobs choke
+    draw carapace like hp with currval and maxval
 
 my server
-    auto starts on bloodmoon and lyca events (fakes cycles), as well as seasons
+    server should log when ppl get consumed
+    also undershirt+broken heart
+    logs season changes
+    logs corruption spreads/colony
+
+iceandfire
+    myrmex lag still https://spark.lucko.me/52YWuA5cjd
+
+nischitweaker
+    remove purifying elixir
+    add wizardrymixins
+    wth is going on with ebwiz shrine loot, way too bad

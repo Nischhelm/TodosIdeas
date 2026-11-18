@@ -34,3 +34,7 @@ callable pets mod
 extend JER loottable view to tables in tables in tables
 
 mod for "collection books"
+
+lootfilter mod with jei
+
+sailing mod
